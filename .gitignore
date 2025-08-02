@@ -1,0 +1,12 @@
+# Output files
+*.mp4
+*.avi
+
+# Python cache
+__pycache__/
+
+# Large dlib model file
+shape_predictor_68_face_landmarks.dat
+
+# System files
+.DS_Store
