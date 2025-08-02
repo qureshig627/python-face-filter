@@ -74,7 +74,6 @@ The position is calculated based on the stable center point of the eyes.
 
 Filter Application: The filter image is resized and rotated according to the stabilized calculations. It is then overlaid onto the video frame using an alpha mask to handle transparency correctly
 
-Gif created from output video:
 <p align="center">
   <img src="https://i.postimg.cc/NFhC2BPJ/temp-Image3v-Rwjo.avif" alt="Demo of the face filter in action" width="600"/>
   <br>
