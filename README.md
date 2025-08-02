@@ -1,8 +1,6 @@
 Python Real-Time Face Filter 🕶️
 A Python application that applies a stabilized AR filter to faces in real-time from a video file or webcam feed. This project uses OpenCV for computer vision tasks and dlib for accurate facial landmark detection.
 
-Gif created from output video : ![Demo GIF of the face filter in action](output_demo.gif)
-
 ✨ Features
 Real-Time Face Detection: Identifies one or more faces in every frame of a video stream.
 
@@ -74,9 +72,6 @@ The size of the filter is calculated based on the stable distance between the ey
 
 The position is calculated based on the stable center point of the eyes.
 
-Filter Application: The filter image is resized and rotated according to the stabilized calculations. It is then overlaid onto the video frame using an alpha mask to handle transparency correctly.
+Filter Application: The filter image is resized and rotated according to the stabilized calculations. It is then overlaid onto the video frame using an alpha mask to handle transparency correctly
 
-🙏 Acknowledgements
-This project was developed with assistance from Google's Gemini.
-
-Special thanks to the developers of OpenCV and dlib for their powerful open-source libraries.
+Gif created from output video: ![Demo GIF of the face filter in action](output_demo.gif)
